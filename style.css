@@ -117,6 +117,7 @@ span {
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
+    background-color: rgb(16, 16, 16);
 }
 
 
@@ -131,12 +132,12 @@ span {
 
 .about-info {
  grid-column: 5/10;
- padding: 3em;
+ padding: 4em;
 }
 
 .about-info h2 {
     font-size: 2em;
-    color: rgb(11, 11, 11);
+    color: rgb(66, 65, 65);
 }
 
 .divider {
@@ -147,8 +148,10 @@ span {
     margin-bottom: 2em;
 }
 
-.about p {
+.about-info p {
+    
     margin-bottom: 1em;
+    color: rgb(135, 133, 133);
 }
 
 .portfolio {
@@ -262,7 +265,7 @@ span {
     align-items: center;
     width: 100vw;
     height: 200px;
-   background-color: rgba(255, 255, 255, 0.799);
+   background-color: rgb(20, 20, 20);
 }
 
 .footer-content h2 {
